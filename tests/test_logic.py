@@ -1,4 +1,3 @@
-
 from app.logic import calcular_rateio, calcular_duracao_min
 
 def test_rateio():
