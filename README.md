@@ -115,4 +115,4 @@ pytest -q
 
 ## 10. Autoria e uso de IA
 
-Ferramentas de IA podem apoiar desenvolvimento e depuração, mas a equipe deve revisar, testar e compreender o código entregue. Cada integrante deve conseguir explicar as decisões e o funcionamento da parte que apresentar.
+Ferramentas de IA podem apoiar desenvolvimento e depuração, mas a equipe deve revisar, testar e compreender o código entregue.
