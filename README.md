@@ -6,7 +6,7 @@
 
 **[ACESSAR O PROTÓTIPO](https://callmehkin.github.io/Sprint_two/)**
 
-**[REPOSITÓRIO NO GITHUB](https://github.com/CallmehKin/Sprint_two)**
+**[REPOSITÓRIO N°1 NO GITHUB](https://github.com/CastroIsaac/challenge_goodwe_socorro)**
 
 ---
 
