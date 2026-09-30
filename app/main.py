@@ -3,9 +3,14 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
-from .database import init_db, seed_db, get_connection
-from .logic import calcular_rateio, calcular_duracao_min, DEFAULT_MAINTENANCE
-from .ai import ChargeOpsAI
+try:
+    from .database import init_db, seed_db, get_connection
+    from .logic import calcular_rateio, calcular_duracao_min, DEFAULT_MAINTENANCE
+    from .ai import ChargeOpsAI
+except ImportError:
+    from database import init_db, seed_db, get_connection
+    from logic import calcular_rateio, calcular_duracao_min, DEFAULT_MAINTENANCE
+    from ai import ChargeOpsAI
 
 app=FastAPI(title="EV ChargeOps", version="2.0")
 ai=ChargeOpsAI()
