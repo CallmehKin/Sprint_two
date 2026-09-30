@@ -6,7 +6,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cluster import KMeans
 from sklearn.ensemble import IsolationForest
 
-from .database import get_connection
+try:
+    from .database import get_connection
+except ImportError:
+    from database import get_connection
 
 class ChargeOpsAI:
     """Módulo estrutural: previsão de consumo, perfil de uso e anomalias."""
